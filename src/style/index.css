@@ -7,14 +7,113 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook {
+  width: 300px;
+  margin-left: 200px;
+}
+
+.facebook h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.facebook p {
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.facebook button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+}
+
+.login {
+  margin-right: 200px;
+  color: white;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.main p {
+  font-size: 14px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.brand {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin-left: 200px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pubilc {
+  background-color: white;
+  width: 50%;
+  height: 60%;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand img,
+.pubilc img {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.brand h4,
+.pubilc h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.brand button,
+.pubilc button {
+  text-align: center;
+  margin-bottom: 20px;
+  border: none;
+  width: 40px;
+  height: 25px;
+  font-size: 10px;
+}
+
+.brand figcaption,
+.pubilc figcaption {
+  text-align: center;
+  margin: 0px 30px 80px 30px;
+  font-size: 14px;
+  color: grey;
 }
